@@ -1,0 +1,29 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Staatliches", sans-serif;
+}
+
+body {
+  margin: 80px 60px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  gap: 40px;
+}
+
+ul li {
+  font-family: sans-serif;
+  list-style: none;
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: rgb(24, 24, 24);
+}
