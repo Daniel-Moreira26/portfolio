@@ -28,15 +28,17 @@ ul li {
   color: rgb(24, 24, 24);
 }
 
+section {
+  margin-top: 110px;
+  width: 1600px;
+  height: 100%;
+}
+
 .apresentacao{
   display: grid;
-  grid-template-columns: auto 1fr;
+  grid-template-columns: 500px 1fr;
   align-items: center;
   gap: 120px;
-
-  margin-top: 100px;
-  width: 1100px;
-  height: 100%;
 }
 
 .foto-perfil {
@@ -59,6 +61,7 @@ ul li {
 }
 
 .titulo p {
+  color: rgb(71, 71, 71);
   font-size: 1.3rem;
   margin-top: 20px;
 }
@@ -67,6 +70,64 @@ ul li {
   content: '🏝️';
   margin-left: 8px;
 }
+
+.experiencia {
+  display: grid;
+  grid-template-columns: 500px 1fr;
+  gap: 120px;
+}
+
+.experiencia h1 {
+  font-size: 8rem;
+  text-transform: uppercase;
+  color: rgb(214, 214, 214);
+}
+
+.exp > p {
+  color: rgb(71, 71, 71);
+  font-size: 1.5rem;
+  max-width: 600px;
+  margin-bottom: 40px;
+  line-height: 2rem;
+}
+
+.projeto {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+
+  max-width: 800px;
+  padding: 20px;
+  margin-top: 20px;
+
+  background-color: rgb(235, 235, 235);
+  border-radius: 4px;
+}
+
+.projeto::before {
+  content: '2045';
+
+}
+
+.projeto p, span {
+  display: inline-block;
+  line-height: 1.2rem;
+  padding-top: 8px;
+}
+
+.skills{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 10px;
+}
+
+.skills span {
+  background-color: rgb(255, 255, 255);
+  padding: 4px 8px;
+}
+
+
 
 
 
