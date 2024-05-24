@@ -35,6 +35,11 @@ ul li a {
   padding: 30px;
 }
 
+ul li a:hover {
+  background-color: #f1f1f1;
+  border-radius: 4px;
+}
+
 section {
   margin-top: 110px;
   width: 1600px;
@@ -115,11 +120,11 @@ section {
 
 .projeto > span {
   position: absolute;
-  top: 20px;
-  left: -100px;
+  top: -100px;
+  left: -300px;
   color: #525252;
 
-  width: 70px;
+  width: 200px;
   text-align: right;
 }
 
@@ -148,6 +153,7 @@ section {
 }
 
 .skills span {
+  color: #525252;
   background-color: rgb(255, 255, 255);
   padding: 4px 8px;
 }
@@ -157,12 +163,10 @@ section {
   grid-template-columns: 500px 1fr;
   gap: 120px;
 
-  width: 100%;
-  height: 100vh;
+  width: 98vw;
+  min-height: 100vh;
   background-color: #141414;
-  padding: 80px 60px;
-  
-
+  padding: 60px 60px 0px 60px;
 }
 
 .formacao h1 {
@@ -221,6 +225,7 @@ section {
 
 .cursos-intensivos {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
 }
 
@@ -249,10 +254,48 @@ section {
   padding: 0px 0px 0px 890px;
 }
 
-.idiomas div p span {
-  padding: 0px 0px 0px 20px;
+.idiomas {
+  padding-bottom: 70px;
 }
 
+.idiomas div p span {
+  padding: 0px 0px 0px 40px;
+}
+
+footer {
+  border-top: 1px solid #525252;
+  position: relative;
+  padding-top: 80px;
+  display: grid;
+  grid-template-columns: 500px 1fr;
+  gap: 140px;
+
+  width: 98vw;
+  height: 60vh;
+
+  background-color: #141414;
+}
+
+footer::before {
+  content: '';
+  width: 150px;
+  height: 150px;
+  background: url('img/detalhe.svg')no-repeat center;
+  position: absolute;
+  left: 100px;
+  top: -70px;
+}
+
+footer p, span {
+  color: whitesmoke;
+  line-height: 2rem;
+  font-size: 1.3rem;
+  padding: 120px 0px 0px 120px;
+}
+
+footer p {
+  color: #b6b6b6;
+}
 
 
 
