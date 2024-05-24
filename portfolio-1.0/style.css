@@ -171,7 +171,7 @@ section {
   text-transform: uppercase;
 }
 
-.formacao div p {
+.introducao-cursos{
   max-width: 600px;
   color: #8d8d8d;
   font-size: 1.3rem;
@@ -213,6 +213,45 @@ section {
   color: whitesmoke;
 }
 
+.cursos-itens p {
+  color: #8d8d8d;
+  font-size: 1.3rem;
+  line-height: 2rem;
+}
+
+.cursos-intensivos {
+  display: flex;
+  flex-direction: column;
+}
+
+.cursos-intensivos h4 {
+  margin: 110px 0px 30px;
+  color: #d1d1d1;
+}
+
+.cursos-intensivos > div {
+  position: relative;
+}
+
+.detalhe-cursos {
+  position: absolute;
+  left: -40px;
+  top: 107px;
+}
+
+.cursos-intensivos p {
+  color: #8d8d8d;
+  max-width: 900px;
+}
+
+.cursos-intensivos span {
+  color: #525252;
+  padding: 0px 0px 0px 890px;
+}
+
+.idiomas div p span {
+  padding: 0px 0px 0px 20px;
+}
 
 
 
